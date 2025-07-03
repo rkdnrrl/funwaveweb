@@ -1,0 +1,1 @@
+import{r as d,_ as l,R as n,c as i,d as m,P as e}from"./index-DiZE1JWV.js";var r=d.forwardRef(function(a,s){var c=a.children,o=a.className,t=l(a,["children","className"]);return n.createElement("div",i({className:m("card-footer",o)},t,{ref:s}),c)});r.propTypes={children:e.node,className:e.string};r.displayName="CCardFooter";export{r as C};
