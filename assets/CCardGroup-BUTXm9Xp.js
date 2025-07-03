@@ -1,1 +1,0 @@
-import{r as o,_ as p,R as t,c as n,d as i,P as r}from"./index-DiZE1JWV.js";var s=o.forwardRef(function(a,e){var c=a.children,d=a.className,l=p(a,["children","className"]);return t.createElement("div",n({className:i("card-group",d)},l,{ref:e}),c)});s.propTypes={children:r.node,className:r.string};s.displayName="CCardGroup";export{s as C};
