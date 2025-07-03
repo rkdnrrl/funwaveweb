@@ -1,0 +1,1 @@
+import{r as d,_ as l,R as n,d as i,e as m,P as a}from"./index-5xQLGjan.js";var r=d.forwardRef(function(e,s){var c=e.children,o=e.className,t=l(e,["children","className"]);return n.createElement("div",i({className:m("card-footer",o)},t,{ref:s}),c)});r.propTypes={children:a.node,className:a.string};r.displayName="CCardFooter";export{r as C};
