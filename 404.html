@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=/funwaveweb/" />
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <title>Redirecting...</title>
+    <script>
+      // 현재 URL 그대로 유지하면서 index.html 로딩
+      const path = window.location.pathname;
+      const query = window.location.search;
+      const hash = window.location.hash;
+      const fullPath = path + query + hash;
+
+      // 리디렉트 정보 저장
+      sessionStorage.setItem('redirect-path', fullPath);
+
+      // 핵심: index.html 자체는 경로를 바꾸지 않고, 현재 주소 그대로 두고 로드해야 함
+      window.location.replace("/funwaveweb/index.html");
+    </script>
   </head>
   <body>
-    <p>Redirecting to home...</p>
-    <script>
-      // Optional fallback if meta refresh fails
-      window.location.replace("/funwaveweb/");
-    </script>
+    Redirecting...
   </body>
 </html>
