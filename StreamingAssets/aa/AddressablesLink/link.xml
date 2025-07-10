@@ -1,0 +1,107 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AccountChangeUI" preserve="all" />
+    <type fullname="AccountInfoUI_UnsubscribeUI" preserve="all" />
+    <type fullname="AccountLogout" preserve="all" />
+    <type fullname="Compare_String" preserve="all" />
+    <type fullname="CreateListLoader" preserve="all" />
+    <type fullname="CreateSceneComponent" preserve="all" />
+    <type fullname="CreateUIComponent" preserve="all" />
+    <type fullname="DestroySceneWithName" preserve="all" />
+    <type fullname="DoComponent" preserve="all" />
+    <type fullname="DropdownLoader" preserve="all" />
+    <type fullname="EmailCheckObject" preserve="all" />
+    <type fullname="GameIntroduceUI" preserve="all" />
+    <type fullname="GameIntroduceUI_GameListItem" preserve="all" />
+    <type fullname="GameIntroduceUI_PopUpUI" preserve="all" />
+    <type fullname="GridAutoResizer" preserve="all" />
+    <type fullname="HomeScene" preserve="all" />
+    <type fullname="HomeUI" preserve="all" />
+    <type fullname="K_Scene" preserve="all" />
+    <type fullname="K_UI" preserve="all" />
+    <type fullname="LocationAndReserveUI" preserve="all" />
+    <type fullname="LoginScene" preserve="all" />
+    <type fullname="LoginStateObjectToggle" preserve="all" />
+    <type fullname="LoginUI_Email" preserve="all" />
+    <type fullname="LoginUI_FindIDUI" preserve="all" />
+    <type fullname="LoginUI_ForgotPasswordUI" preserve="all" />
+    <type fullname="LoginUI_LoginUI" preserve="all" />
+    <type fullname="LoginUI_Password" preserve="all" />
+    <type fullname="LoginUI_SignInUI" preserve="all" />
+    <type fullname="MyPassword" preserve="all" />
+    <type fullname="NewPasswordObject" preserve="all" />
+    <type fullname="PasswordChangeUI" preserve="all" />
+    <type fullname="QRUI" preserve="all" />
+    <type fullname="RankingBestItem" preserve="all" />
+    <type fullname="RankingUI" preserve="all" />
+    <type fullname="SceneLinker" preserve="all" />
+    <type fullname="SendDataToText" preserve="all" />
+    <type fullname="SetStringToText" preserve="all" />
+    <type fullname="SignIn_BirthDay" preserve="all" />
+    <type fullname="SignIn_Email" preserve="all" />
+    <type fullname="SignIn_Gender" preserve="all" />
+    <type fullname="SignIn_Nickname" preserve="all" />
+    <type fullname="SignIn_Password" preserve="all" />
+    <type fullname="TableDataReaderComponent" preserve="all" />
+    <type fullname="TextGetString" preserve="all" />
+    <type fullname="UserGamePoint" preserve="all" />
+    <type fullname="UserNickname" preserve="all" />
+    <type fullname="UserTotalPoint" preserve="all" />
+    <type fullname="YoutubeThumbnailOpener" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.Dropdown" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.InputField" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/OptionDataList" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+</linker>
